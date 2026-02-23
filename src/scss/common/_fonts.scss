@@ -27,8 +27,8 @@
     src: url("/public/assets/fonts/playfairdisplay-italic.ttf") format('truetype');
 }
 @font-face {
-    font-family: "stixgeneral";
-    src: url("/public/assets/fonts/stixgeneral.otf") format('opentype');
+    font-family: "stixtwotext";
+    src: url("/public/assets/fonts/stixtwotext.ttf") format('opentype');
 }
 @font-face {
     font-family: "stixtwotext-italic";
@@ -52,7 +52,7 @@
     font-family: "playfairdisplay-italic";
 }
 .stix-gen {
-    font-family: "stixgeneral";
+    font-family: "stixtwotext";
 }
 .stix-wox-italic {
     font-family: "stixtwotext-italic";
