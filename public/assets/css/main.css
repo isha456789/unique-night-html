@@ -14422,27 +14422,29 @@ progress {
 
 @font-face {
   font-family: "manrope-light";
-  src: url("../public/assets/fonts/manrope-light.ttf") format("truetype");
+  src: url("/public/assets/fonts/manrope-light.ttf") format("truetype");
 }
 @font-face {
   font-family: "manrope-regular";
-  src: url("../public/assets/fonts/manrope-regular.ttf") format("truetype");
+  src: url("/public/assets/fonts/manrope-regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "manrope-bold";
-  src: url("../public/assets/fonts/manrope-bold.ttf") format("truetype");
+  font-family: "Manrope-Bold";
+  src: url("/public/assets/fonts/Manrope-Bold.ttf") format("truetype");
+  font-weight: 700;
 }
 @font-face {
   font-family: "playfairdisplay-regular";
-  src: url("../public/assets/fonts/playfairdisplay-regular.ttf") format("truetype");
+  src: url("/public/assets/fonts/playfairdisplay-regular.ttf") format("truetype");
+  font-weight: 400;
 }
 @font-face {
   font-family: "playfairdisplay-italic";
-  src: url("../public/assets/fonts/playfairdisplay-italic.ttf") format("truetype");
+  src: url("/public/assets/fonts/playfairdisplay-italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "stixgeneral";
-  src: url("../public/assets/fonts/stixgeneral.otf") format("opentype");
+  src: url("/public/assets/fonts/stixgeneral.otf") format("opentype");
 }
 @font-face {
   font-family: "stixtwotext-italic";
@@ -14457,7 +14459,7 @@ progress {
 }
 
 .manrope-bold {
-  font-family: "manrope-bold";
+  font-family: "Manrope-Bold";
 }
 
 .play-reg {
