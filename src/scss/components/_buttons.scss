@@ -6,3 +6,45 @@ button,
     -moz-appearance: none !important;
     -webkit-appearance: none !important;
 }
+
+.btnA {
+    height: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    &.bg-B7824E-btn {
+        background-color: $color-B7824E;
+        border: 1px solid $color-B7824E;
+        color: $white;
+
+        &:hover {
+            background-color: $color-FFFAF2;
+            color: $color-B7824E;
+            border: 1px solid  $color-B7824E;
+        }
+    }
+
+    &.bg-FFFAF2-btn{
+        background-color: $color-FFFAF2;
+        border: 1px solid $color-FFFAF2;
+        color: $color-B7824E;
+
+        &:hover{
+            background-color: transparent;
+            border: 1px solid $color-FFFAF2;
+            color:  $color-B7824E;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
