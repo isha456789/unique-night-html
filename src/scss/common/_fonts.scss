@@ -4,61 +4,53 @@
 //     font-style: normal;
 // }
 @font-face {
-    font-family: "manrope-bold";
-    src: url("../public/assets/fonts/manrope-bold.ttf");
-    font-weight: 400;
-}
-@font-face {
     font-family: "manrope-light";
-    src: url("../public/assets/fonts/manrope-light.ttf");
-    font-weight: 400;
+    src: url("../public/assets/fonts/manrope-light.ttf") format('truetype');
 }
 @font-face {
     font-family: "manrope-regular";
-    src: url("../public/assets/fonts/manrope-regular.ttf");
-    font-weight: 400;
+    src: url("../public/assets/fonts/manrope-regular.ttf") format('truetype');
 }
 @font-face {
-    font-family: "playfairdisplay-italic";
-    src: url("../public/assets/fonts/playfairdisplay-italic.ttf");
-    font-weight: 400;
+    font-family: "manrope-bold";
+    src: url("../public/assets/fonts/manrope-bold.ttf") format('truetype');
 }
 @font-face {
     font-family: "playfairdisplay-regular";
-    src: url("../public/assets/fonts/playfairdisplay-regular.ttf");
-    font-weight: 400;
+    src: url("../public/assets/fonts/playfairdisplay-regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "playfairdisplay-italic";
+    src: url("../public/assets/fonts/playfairdisplay-italic.ttf") format('truetype');
 }
 @font-face {
     font-family: "stixgeneral";
-    src: url("../public/assets/fonts/stixgeneral.otf");
-    font-weight: 400;
+    src: url("../public/assets/fonts/stixgeneral.otf") format('opentype');
 }
-
 @font-face {
     font-family: "stixtwotext-italic";
-    src: url("/public/assets/fonts/stixtwotext-italic.ttf");
-    font-weight: 400;
+    src: url("/public/assets/fonts/stixtwotext-italic.ttf") format('truetype');
 }
 
-.manrope-bold{
-    font-family: "manrope-bold";
-}
-
-.manrope-light{
+//  ====== Font Family ======
+.manrope-light {
     font-family: "manrope-light";
 }
-.manrope-regular{
+.manrope-reg {
     font-family: "manrope-regular";
 }
-.playfairdisplay-italic{
-    font-family: "playfairdisplay-italic";
+.manrope-bold {
+    font-family: "manrope-bold";
 }
-.playfairdisplay-regular{
+.play-reg {
     font-family: "playfairdisplay-regular";
 }
-.stixgeneral{
+.play-italic {
+    font-family: "playfairdisplay-italic";
+}
+.stix-gen {
     font-family: "stixgeneral";
 }
-.stixtwotext-italic{
+.stix-wox-italic {
     font-family: "stixtwotext-italic";
 }
