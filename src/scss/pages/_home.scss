@@ -1,5 +1,8 @@
 .hero-section {
     .hero-img {
         height: 812px;
+        @include media-breakpoint-up(lg) {
+            padding-left: 73px;
+        }
     }
 }

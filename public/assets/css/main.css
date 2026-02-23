@@ -17931,6 +17931,10 @@ body {
   opacity: 19%;
 }
 
+.opacity60 {
+  opacity: 60%;
+}
+
 button,
 [type=button],
 [type=reset],
@@ -17976,6 +17980,11 @@ button,
 
 .hero-section .hero-img {
   height: 812px;
+}
+@media (min-width: 992px) {
+  .hero-section .hero-img {
+    padding-left: 73px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
