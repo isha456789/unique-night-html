@@ -17726,7 +17726,7 @@ textarea {
 }
 
 .leading17 {
-  line-height: 17px;
+  line-height: 16px;
 }
 
 .leading20 {
@@ -17747,10 +17747,6 @@ textarea {
 
 .leading28 {
   line-height: 28px;
-}
-
-.leading48 {
-  line-height: 48px;
 }
 
 .leading30 {
@@ -17775,6 +17771,10 @@ textarea {
 
 .leading40 {
   line-height: 40px;
+}
+
+.leading48 {
+  line-height: 48px;
 }
 
 .leading60 {
@@ -17857,16 +17857,16 @@ textarea {
   letter-spacing: 5.5px;
 }
 
-.opacity10 {
-  opacity: 10%;
+.opacity5 {
+  opacity: 5%;
 }
 
 .opacity8 {
   opacity: 8%;
 }
 
-.opacity5 {
-  opacity: 5%;
+.opacity10 {
+  opacity: 10%;
 }
 
 .opacity19 {

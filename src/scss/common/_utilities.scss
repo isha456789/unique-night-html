@@ -1,228 +1,233 @@
-.bg-B7824E{
+// ======= Background Color ======
+.bg-B7824E {
     background-color: $color-B7824E;
 }
-.bg-FFFAF2{
+.bg-FFFAF2 {
     background-color: $color-FFFAF2;
 }
-.bg-212121{
+.bg-212121 {
     background-color: $color-212121;
 }
-.bg-A8784A{
+.bg-A8784A {
     background-color: $color-A8784A;
 }
-.bg-111111{
+.bg-111111 {
     background-color: $color-111111;
 }
-.bg-4B5563{
+.bg-4B5563 {
     background-color: $color-4B5563;
 }
-.bg-6B7280{
+.bg-6B7280 {
     background-color: $color-6B7280;
 }
-.bg-9CA3AF{
+.bg-9CA3AF {
     background-color: $color-9CA3AF;
 }
 
+// ======= Color ======
 
-.text-B7824E{
+.text-B7824E {
     color: $color-B7824E;
 }
-.text-FFFAF2{
+.text-FFFAF2 {
     color: $color-FFFAF2;
 }
-.text-212121{
+.text-212121 {
     color: $color-212121;
 }
-.text-A8784A{
+.text-A8784A {
     color: $color-A8784A;
 }
-.text-111111{
+.text-111111 {
     color: $color-111111;
 }
-.text-4B5563{
-   color: $color-4B5563;
+.text-4B5563 {
+    color: $color-4B5563;
 }
-.text-6B7280{
+.text-6B7280 {
     color: $color-6B7280;
 }
-.text-9CA3AF{
+.text-9CA3AF {
     color: $color-9CA3AF;
 }
 
-.font9{
-    font-size:  9px;
+// ======= Font Size ======
+
+.font9 {
+    font-size: $font9;
 }
-.font10{
-    font-size:  10px;
+.font10 {
+    font-size: $font10;
 }
-.font11{
-    font-size:  11px;
+.font11 {
+    font-size: $font11;
 }
-.font12{
-    font-size:  12px;
+.font12 {
+    font-size: $font12;
 }
-.font14{
-    font-size:  14px;
+.font14 {
+    font-size: $font14;
 }
-.font16{
-    font-size:  16px;
+.font16 {
+    font-size: $font16;
 }
-.font18{
-    font-size:  18px;
+.font18 {
+    font-size: $font18;
 }
-.font20{
-    font-size:  20px;
+.font20 {
+    font-size: $font20;
 }
-.font24{
-    font-size:  24px;
+.font24 {
+    font-size: $font24;
 }
-.font27{
-    font-size:  27px;
+.font27 {
+    font-size: $font27;
 }
-.font30{
-    font-size:  30px;
+.font30 {
+    font-size: $font30;
 }
-.font36{
-    font-size:  36px;
+.font36 {
+    font-size: $font36;
 }
-.font48{
-    font-size:  48px;
+.font48 {
+    font-size: $font48;
 }
-.font60{
-    font-size:  60px;
+.font60 {
+    font-size: $font60;
 }
-.font65{
-    font-size:  65px;
+.font65 {
+    font-size: $font65;
 }
-.font72{
-    font-size:  72px;
+.font72 {
+    font-size: $font72;
 }
-.font96{
-    font-size:  96px;
+.font96 {
+    font-size: $font96;
 }
-.font100{
-    font-size: 100px;
+.font100 {
+    font-size: $font100;
 }
 
+// ====== Line Height ======
 
-.leading15{
-    line-height: 15px;
+.leading15 {
+    line-height: $leading15;
 }
-.leading16{
-    line-height: 16px;
+.leading16 {
+    line-height: $leading16;
 }
-.leading17{
-    line-height: 17px;
+.leading17 {
+    line-height: $leading16;
 }
-.leading20{
-    line-height: 20px;
+.leading20 {
+    line-height: $leading20;
 }
-.leading24{
-    line-height: 24px;
+.leading24 {
+    line-height: $leading24;
 }
-.leading25{
-    line-height: 25px;
+.leading25 {
+    line-height: $leading25;
 }
-.leading26{
-    line-height: 26px;
+.leading26 {
+    line-height: $leading26;
 }
-.leading28{
-    line-height: 28px;
+.leading28 {
+    line-height: $leading28;
 }
-.leading48{
-    line-height: 48px;
+.leading30 {
+    line-height: $leading30;
 }
-.leading30{
-    line-height: 30px;
+.leading32 {
+    line-height: $leading32;
 }
-.leading32{
-    line-height: 32px;
+.leading33 {
+    line-height: $leading33;
 }
-.leading33{
-    line-height: 33px;
+.leading36 {
+    line-height: $leading36;
 }
-.leading36{
-    line-height: 36px;
+.leading39 {
+    line-height: $leading39;
 }
-.leading39{
-    line-height: 39px;
+.leading40 {
+    line-height: $leading40;
 }
-.leading40{
-    line-height: 40px;
+.leading48 {
+    line-height: $leading48;
 }
-.leading60{
-    line-height: 60px;
+.leading60 {
+    line-height: $leading60;
 }
-.leading63{
-    line-height: 63px;
+.leading63 {
+    line-height: $leading63;
 }
-.leading96{
-    line-height: 96px;
+.leading96 {
+    line-height: $leading96;
 }
-.leading72{
-    line-height: 72px;
+.leading72 {
+    line-height: $leading72;
 }
-.leading100{
-    line-height:  100px;
+.leading100 {
+    line-height: $leading100;
 }
 
-
-.space1_2{
-    letter-spacing:  1.2px;
+// ====== Letter Spacing ======
+.space1_2 {
+    letter-spacing: $space1_2;
 }
-    
 .space0_35 {
-    letter-spacing: 0.35px;
+    letter-spacing: $space0_35;
 }
 .space0_9 {
-    letter-spacing:  0.9px;
+    letter-spacing: $space0_9;
 }
 .space1 {
-    letter-spacing:  1px;
+    letter-spacing: $space1;
 }
 .space1_4 {
-    letter-spacing: 1.4px;
+    letter-spacing: $space1_4;
 }
 .space2 {
-    letter-spacing: 2px;
+    letter-spacing: $space2;
 }
-.space2_2 { 
-    letter-spacing: 2.2px;
+.space2_2 {
+    letter-spacing: $space2_2;
 }
 .space2_4 {
-    letter-spacing: 2.4px;
+    letter-spacing: $space2_4;
 }
 .space3 {
-   letter-spacing: 3px;
+    letter-spacing: $space3;
 }
 .space3_5 {
-    letter-spacing: 3.5px;
+    letter-spacing: $space3_5;
 }
 .space3_6 {
-    letter-spacing: 3.6px;
+    letter-spacing: $space3_6;
 }
 .space4 {
-    letter-spacing: 4px;
+    letter-spacing: $space4;
 }
 .space4_4 {
-    letter-spacing: 4.4px;
+    letter-spacing: $space4_4;
 }
 .space4_8 {
-    letter-spacing:  4.8px;
+    letter-spacing: $space4_8;
 }
 .space5_5 {
-    letter-spacing: 5.5px;
+    letter-spacing: $space5_5;
 }
 
+// ====== Opacity ======
 
-.opacity10 {
-    opacity: $opacity10;
-}
-.opacity8{
-    opacity : $opacity8;
-}
 .opacity5 {
     opacity: $opacity5;
+}
+.opacity8 {
+    opacity: $opacity8;
+}
+.opacity10 {
+    opacity: $opacity10;
 }
 .opacity19 {
     opacity: $opacity19;
