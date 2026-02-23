@@ -17452,6 +17452,69 @@ textarea {
   height: 100vh;
 }
 
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.row > * {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row5 {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.row5 > * {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.row12 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.row12 > * {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.row13_5 {
+  margin-left: -13.5px;
+  margin-right: -13.5px;
+}
+.row13_5 > * {
+  padding-left: 13.5px;
+  padding-right: 13.5px;
+}
+
+.row16 {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+.row16 > * {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.row20 {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.row20 > * {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row24 {
+  margin-left: -24px;
+  margin-right: -24px;
+}
+.row24 > * {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
