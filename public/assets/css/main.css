@@ -14421,10 +14421,68 @@ progress {
 }
 
 @font-face {
-  font-family: "roobert";
-  src: url("../../../public/assets/fonts/");
+  font-family: "manrope-bold";
+  src: url("../public/assets/fonts/manrope-bold.ttf");
   font-weight: 400;
 }
+@font-face {
+  font-family: "manrope-light";
+  src: url("../public/assets/fonts/manrope-light.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "manrope-regular";
+  src: url("../public/assets/fonts/manrope-regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "playfairdisplay-italic";
+  src: url("../public/assets/fonts/playfairdisplay-italic.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "playfairdisplay-regular";
+  src: url("../public/assets/fonts/playfairdisplay-regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "stixgeneral";
+  src: url("../public/assets/fonts/stixgeneral.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "stixtwotext-italic";
+  src: url("/public/assets/fonts/stixtwotext-italic.ttf");
+  font-weight: 400;
+}
+.manrope-bold {
+  font-family: "manrope-bold";
+}
+
+.manrope-light {
+  font-family: "manrope-light";
+}
+
+.manrope-regular {
+  font-family: "manrope-regular";
+}
+
+.playfairdisplay-italic {
+  font-family: "playfairdisplay-italic";
+}
+
+.playfairdisplay-regular {
+  font-family: "playfairdisplay-regular";
+}
+
+.stixgeneral {
+  font-family: "stixgeneral";
+}
+
+.stixtwotext-italic {
+  font-family: "stixtwotext-italic";
+}
+
 /*******************************************************************************
 ******************************* COLOUR VARIABLES *******************************
 *******************************************************************************/
