@@ -29,6 +29,7 @@
 @font-face {
     font-family: "stixtwotext";
     src: url("/public/assets/fonts/stixtwotext.ttf") format('opentype');
+    font-weight: 400;
 }
 @font-face {
     font-family: "stixtwotext-italic";
@@ -51,7 +52,7 @@
 .play-italic {
     font-family: "playfairdisplay-italic";
 }
-.stix-gen {
+.stix-wox-reg {
     font-family: "stixtwotext";
 }
 .stix-wox-italic {
