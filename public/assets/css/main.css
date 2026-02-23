@@ -14429,6 +14429,10 @@ progress {
   src: url("/public/assets/fonts/manrope-regular.ttf") format("truetype");
 }
 @font-face {
+  font-family: "manrope-medium";
+  src: url("/public/assets/fonts/manrope-medium.ttf") format("truetype");
+}
+@font-face {
   font-family: "Manrope-Bold";
   src: url("/public/assets/fonts/Manrope-Bold.ttf") format("truetype");
   font-weight: 700;
@@ -14461,6 +14465,10 @@ progress {
 
 .manrope-bold {
   font-family: "Manrope-Bold";
+}
+
+.manrope-medium {
+  font-family: "manrope-medium";
 }
 
 .play-reg {
@@ -17935,6 +17943,18 @@ body {
   opacity: 60%;
 }
 
+.opacity40 {
+  opacity: 40%;
+}
+
+.opacity20 {
+  opacity: 20%;
+}
+
+.opacity30 {
+  opacity: 30%;
+}
+
 button,
 [type=button],
 [type=reset],
@@ -17948,6 +17968,7 @@ button,
   height: 48px;
   padding-left: 40px;
   padding-right: 40px;
+  transition: all 0.3s ease-in-out;
 }
 .btnA.bg-B7824E-btn {
   background-color: #B7824E;
@@ -17962,7 +17983,7 @@ button,
 .btnA.bg-FFFAF2-btn {
   background-color: #FFFAF2;
   border: 1px solid #FFFAF2;
-  color: #B7824E;
+  color: #212121;
 }
 .btnA.bg-FFFAF2-btn:hover {
   background-color: transparent;
@@ -17976,6 +17997,61 @@ button,
 }
 .card-hover:hover .img {
   transform: scale(1.1);
+}
+
+header .header-logo {
+  height: 40px;
+}
+header .header-logo .white-logo {
+  display: block;
+}
+header .header-logo .black-logo {
+  display: none;
+}
+header .header-menu ul li:first-child {
+  margin-left: 0px !important;
+}
+header.dark-header .header-logo .white-logo {
+  display: none;
+}
+header.dark-header .header-logo .black-logo {
+  display: block;
+}
+header.dark-header .header-menu ul li a {
+  color: #212121 !important;
+}
+header.dark-header .header-menu .btnA {
+  border: 1px solid #212121;
+  background-color: #212121;
+  color: #FFFAF2;
+}
+header.dark-header .header-menu .btnA:hover {
+  color: #212121;
+  background-color: transparent;
+}
+
+footer .footer-top .footer-logo {
+  height: 84px;
+}
+footer .footer-top .footer-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer .footer-top .footer-icon img {
+  height: 20px;
+}
+footer .footer-top .search-box {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+footer .footer-top .search-box .next-icon {
+  height: 36px;
+}
+footer .footer-top .search-box .input {
+  color: rgba(255, 255, 255, 0.2);
+}
+footer .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .hero-section .hero-img {

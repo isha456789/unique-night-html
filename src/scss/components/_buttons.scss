@@ -11,6 +11,7 @@ button,
     height: 48px;
     padding-left: 40px;
     padding-right: 40px;
+    transition: all 0.3s ease-in-out;
 
     &.bg-B7824E-btn {
         background-color: $color-B7824E;
@@ -27,7 +28,7 @@ button,
     &.bg-FFFAF2-btn{
         background-color: $color-FFFAF2;
         border: 1px solid $color-FFFAF2;
-        color: $color-B7824E;
+        color: $color-212121;
 
         &:hover{
             background-color: transparent;

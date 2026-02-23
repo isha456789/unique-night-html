@@ -13,6 +13,10 @@
     src: url("/public/assets/fonts/manrope-regular.ttf") format('truetype');
 }
 @font-face {
+    font-family: "manrope-medium";
+    src: url("/public/assets/fonts/manrope-medium.ttf") format('truetype');
+}
+@font-face {
     font-family: "Manrope-Bold";
     src: url("/public/assets/fonts/Manrope-Bold.ttf") format('truetype');
     font-weight: 700;
@@ -45,6 +49,9 @@
 }
 .manrope-bold {
     font-family: "Manrope-Bold";
+}
+.manrope-medium {
+    font-family: "manrope-medium";
 }
 .play-reg {
     font-family: "playfairdisplay-regular";

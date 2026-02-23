@@ -1,0 +1,51 @@
+header {
+  .header-logo {
+    height: 40px;
+
+    .white-logo {
+      display: block;
+    }
+    .black-logo {
+      display: none;
+    }
+  }
+  .header-menu {
+    ul {
+      li {
+        &:first-child {
+          margin-left: 0px !important;
+        }
+      }
+    }
+  }
+
+  &.dark-header {
+    .header-logo {
+      .white-logo {
+        display: none;
+      }
+      .black-logo {
+        display: block;
+      }
+    }
+    .header-menu {
+      ul {
+        li {
+          a {
+            color: $color-212121 !important;
+          }
+        }
+      }
+      .btnA {
+        border: 1px solid $color-212121;
+        background-color: $color-212121;
+        color: $color-FFFAF2;
+        
+        &:hover {
+            color: $color-212121;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
