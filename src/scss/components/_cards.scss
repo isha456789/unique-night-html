@@ -10,3 +10,36 @@
         }
     }
 }
+
+.diffrence-cards {
+    .diffrence-card {
+        padding: 32px 27px;
+        height: 318px;
+        .diff-circle {
+            width: 64px;
+            height: 64px;
+            background: rgba($color: $color-B7824E, $alpha: 0.08);
+            img {
+                height: 24px;
+            }
+        }
+    }
+}
+
+.collection-cards {
+    .collection-card {
+        height: 472px;
+        .card-img {
+            height: 250px;
+        }
+        .card-content-wrapper {
+            padding:30px;
+            .location-icon {
+                margin-right: 10px;
+                img {
+                    height: 15px;
+                }
+            }
+        }
+    }
+}
