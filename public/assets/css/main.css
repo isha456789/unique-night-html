@@ -18008,10 +18008,13 @@ button,
 }
 
 .btnA {
-  height: 48px;
+  height: 56px;
   padding-left: 40px;
   padding-right: 40px;
   transition: all 0.3s ease-in-out;
+}
+.btnA.btnB {
+  height: 64px;
 }
 .btnA.bg-B7824E-btn {
   background-color: #B7824E;
@@ -18020,6 +18023,16 @@ button,
 }
 .btnA.bg-B7824E-btn:hover {
   background-color: #FFFAF2;
+  color: #B7824E;
+  border: 1px solid #B7824E;
+}
+.btnA.border-white-btn {
+  background-color: #B7824E;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btnA.border-white-btn:hover {
+  background-color: #fff;
   color: #B7824E;
   border: 1px solid #B7824E;
 }
@@ -18032,6 +18045,21 @@ button,
   background-color: transparent;
   border: 1px solid #FFFAF2;
   color: #B7824E;
+}
+
+.input {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.textarea {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  height: 91px;
+}
+.textarea::placeholder {
+  color: rgba(255, 255, 255, 0.4) !important;
 }
 
 .card-hover .img {
@@ -18082,6 +18110,9 @@ header .header-logo .black-logo {
 }
 header .header-menu ul li:first-child {
   margin-left: 0px !important;
+}
+header .header-menu .header-btn {
+  height: 45px !important;
 }
 header.dark-header .header-logo .white-logo {
   display: none;
@@ -18153,6 +18184,35 @@ footer .footer-bottom {
 
 .banner-section .banner-img {
   height: 600px;
+}
+
+.contact-section .contact-form {
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 1px 2px rgba(255, 255, 255, 0.05);
+}
+.contact-section .contact-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(183, 130, 78, 0.2);
+}
+.contact-section .contact-icon img {
+  height: 28px;
+}
+.contact-section .contact-border {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.privacy-section .privacy-content-data:last-child {
+  margin-bottom: 0px !important;
+}
+.privacy-section .privacy-content-data .privacy-title {
+  border-bottom: 1px solid rgba(33, 33, 33, 0.05);
+}
+.privacy-section .privacy-content-data .privacy-content {
+  border-left: 2px solid #B7824E;
+}
+.privacy-section .privacy-content-data .privacy-icon {
+  height: 16px;
 }
 
 /*# sourceMappingURL=main.css.map */
