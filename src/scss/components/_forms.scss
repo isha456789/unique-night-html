@@ -1,0 +1,15 @@
+.input {
+  border-bottom: 1px solid rgba($color: $white, $alpha: 0.1) !important;
+
+  &::placeholder {
+    color: rgba($color: $white, $alpha: 0.4) !important;
+  }
+}
+.textarea {
+  border-bottom: 1px solid rgba($color: $white, $alpha: 0.1) !important;
+  height: 91px;
+
+  &::placeholder {
+    color: rgba($color: $white, $alpha: 0.4) !important;
+  }
+}

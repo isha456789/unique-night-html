@@ -8,10 +8,14 @@ button,
 }
 
 .btnA {
-    height: 48px;
+    height: 56px;
     padding-left: 40px;
     padding-right: 40px;
     transition: all 0.3s ease-in-out;
+
+    &.btnB {
+    height: 64px;
+ }
 
     &.bg-B7824E-btn {
         background-color: $color-B7824E;
@@ -22,6 +26,19 @@ button,
             background-color: $color-FFFAF2;
             color: $color-B7824E;
             border: 1px solid  $color-B7824E;
+        }
+    }
+
+    
+    &.border-white-btn {
+        background-color: $color-B7824E;
+        border: 1px solid $white;
+        color: $white;
+
+        &:hover {
+            background-color: $white;
+            color: $color-B7824E;
+            border: 1px solid $color-B7824E;
         }
     }
 
