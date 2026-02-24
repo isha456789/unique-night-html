@@ -17,14 +17,13 @@
     src: url("/public/assets/fonts/manrope-medium.ttf") format('truetype');
 }
 @font-face {
-    font-family: "Manrope-Bold";
-    src: url("/public/assets/fonts/Manrope-Bold.ttf") format('truetype');
-    font-weight: 700;
+    font-family: "manrope-bold";
+    src: url("/public/assets/fonts/manrope-bold.ttf") format('truetype');
 }
 @font-face {
     font-family: "playfairdisplay-regular";
     src: url("/public/assets/fonts/playfairdisplay-regular.ttf") format('truetype');
-    font-weight: 400;
+
 }
 @font-face {
     font-family: "playfairdisplay-italic";
@@ -39,6 +38,10 @@
     font-family: "stixtwotext-italic";
     src: url("/public/assets/fonts/stixtwotext-italic.ttf") format('truetype');
 }
+@font-face {
+    font-family: "stixvarbol";
+    src: url("/public/assets/fonts/stixvarbol.otf") format('truetype');
+}
 
 //  ====== Font Family ======
 .manrope-light {
@@ -48,7 +51,7 @@
     font-family: "manrope-regular";
 }
 .manrope-bold {
-    font-family: "Manrope-Bold";
+    font-family: "manrope-bold";
 }
 .manrope-medium {
     font-family: "manrope-medium";
@@ -64,4 +67,7 @@
 }
 .stix-wox-italic {
     font-family: "stixtwotext-italic";
+}
+.stix-wox-bold{
+    font-family: "stixvarbol";
 }
