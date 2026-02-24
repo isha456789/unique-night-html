@@ -6,3 +6,26 @@
         }
     }
 }
+.portfolio-collection-section {
+    .view-all-btn {
+        border-bottom: 1.5px solid;
+    }
+}
+.guest-journy-section {
+    .journey-img {
+        @include media-breakpoint-up(lg) {
+        padding-left: 84px;
+        }
+        height: 877px;
+    }
+    .jouney-content-wrapper{
+        .jouney-content{
+            gap: 32px;
+        }
+    }
+}
+.banner-section{
+    .banner-img{
+        height: 600px;
+    }
+}
