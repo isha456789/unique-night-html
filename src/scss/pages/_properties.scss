@@ -1,0 +1,32 @@
+.properties-section {
+    .properties-filter-wrapper {
+        padding: 9px 16px 9px 33px;
+
+        .filter-wrapper {
+            border-right: 1px solid #ffffff30;
+            padding: 16px 28px 16px 0;
+        }
+        .guest-wrapper {
+            padding-left: 32px;
+        }
+        .location-icon {
+            img {
+                height: 11px;
+            }
+        }
+    }
+    .properties-card-wrapper {
+        row-gap: 62px;
+    }
+}
+
+.book-section{
+    .book-circle{
+        width: 80px;
+        height: 80px;
+        background: #0505052E;
+        img{
+            height: 30px;
+        }
+    }
+}

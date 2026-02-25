@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Properties</title>
+    <!-- Favicons -->
+    <link rel="icon" href="assets/images/favicon.svg" sizes="32x32" type="image/png" />
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- ✅ Select2 CSS (stable) -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-FFFAF2">
+    <!-- properties-section -->
+    <section class="properties-section dpt-60">
+        <div class="container">
+            <div class="stix-wox-reg font60 leading60 text-212121 mb-5">Our Properties</div>
+            <div class="properties-filter-wrapper bg-dark radius12 dmb-120">
+                <div class="row">
+                    <div class="filter-wrapper col-lg-4">
+                        <div>
+                            <div class="manrope-bold font10 leading15 space1 text-uppercase text-white opacity40 mb-1">
+                                Destination</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <div class="location-icon">
+                                <img src="./assets/images/icon/location.svg" alt="">
+                            </div>
+                            <select id="destination-select-box">
+                                <option value="">Where are you going?</option>
+                                <option value="dubai">Dubai</option>
+                                <option value="singapore">Singapore</option>
+                                <option value="maldives">Maldives</option>
+                                <option value="bali">Bali</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="filter-wrapper guest-wrapper col-lg-4">
+                        <div>
+                            <div class="manrope-bold font10 leading15 space1 text-uppercase text-white opacity40 mb-1">
+                                Guests</div>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <div class="location-icon">
+                                <img src="./assets/images/icon/location.svg" alt="">
+                            </div>
+                            <select id="guest-select-box">
+                                <option value="">Add guests</option>
+                                <option value="dubai">1</option>
+                                <option value="singapore">2</option>
+                                <option value="maldives">3</option>
+                                <option value="bali">4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="ps-3 d-flex align-items-center justify-content-center h-100">
+                            <a class="btnA bg-B7824E-btn manrope-bold font12 leading16 space3 text-uppercase d-inline-flex justify-content-center align-items-center text-decoration-none transition w-100 rounded-2"
+                                href="#">
+                                Filter
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row5 properties-card-wrapper">
+                <div class="col-lg-4 collection-cards">
+                    <div class="collection-card radius5 overflow-hidden bg-white">
+                        <div class="position-relative">
+                            <div class="card-img">
+                                <img src="./assets/images/collection-card-img.png" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div
+                                class="card-label px-3 py-2 radius3 overflow-hidden bg-white  position-absolute top-0 end-0 mt-4 me-4">
+                                <div class="manrope-bold font10 leading15 space1 text-B7824E text-uppercase">
+                                    Featured
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content-wrapper">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="location-icon">
+                                    <img src="./assets/images/icon/location.svg" alt="">
+                                </div>
+                                <div
+                                    class="manrope-reg font11 leading17 space2_2 text-212121 opacity-50 text-uppercase">
+                                    London, England
+                                </div>
+                            </div>
+                            <div class="stix-wox-reg font24 leading32 mb-3">The Kensington Retreat</div>
+                            <div
+                                class="stix-wox-reg font24 leading32 text-B7824E dpt-20 dpb-25 border-top border-212121-05">
+                                £120 <span
+                                    class="manrope-bold font10 leading15 space1 text-212121 opacity40 text-uppercase">/
+                                    night</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 collection-cards">
+                    <div class="collection-card radius5 overflow-hidden bg-white">
+                        <div class="position-relative">
+                            <div class="card-img">
+                                <img src="./assets/images/collection-card-img.png" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div
+                                class="card-label px-3 py-2 radius3 overflow-hidden bg-white  position-absolute top-0 end-0 mt-4 me-4">
+                                <div class="manrope-bold font10 leading15 space1 text-B7824E text-uppercase">
+                                    Featured
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content-wrapper">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="location-icon">
+                                    <img src="./assets/images/icon/location.svg" alt="">
+                                </div>
+                                <div
+                                    class="manrope-reg font11 leading17 space2_2 text-212121 opacity-50 text-uppercase">
+                                    Cotswolds,
+                                    England
+                                </div>
+                            </div>
+                            <div class="stix-wox-reg font24 leading32 mb-3">The Kensington Retreat</div>
+                            <div
+                                class="stix-wox-reg font24 leading32 text-B7824E dpt-20 dpb-25 border-top border-212121-05">
+                                £95 <span
+                                    class="manrope-bold font10 leading15 space1 text-212121 opacity40 text-uppercase">/
+                                    night</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 collection-cards">
+                    <div class="collection-card radius5 overflow-hidden bg-white">
+                        <div class="position-relative">
+                            <div class="card-img">
+                                <img src="./assets/images/collection-card-img.png" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div
+                                class="card-label px-3 py-2 radius3 overflow-hidden bg-white  position-absolute top-0 end-0 mt-4 me-4">
+                                <div class="manrope-bold font10 leading15 space1 text-B7824E text-uppercase">
+                                    Featured
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content-wrapper">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="location-icon">
+                                    <img src="./assets/images/icon/location.svg" alt="">
+                                </div>
+                                <div
+                                    class="manrope-reg font11 leading17 space2_2 text-212121 opacity-50 text-uppercase">
+                                    Manchester,
+                                    England
+                                </div>
+                            </div>
+                            <div class="stix-wox-reg font24 leading32 mb-3">The Kensington Retreat</div>
+                            <div
+                                class="stix-wox-reg font24 leading32 text-B7824E dpt-20 dpb-25 border-top border-212121-05">
+                                £85 <span
+                                    class="manrope-bold font10 leading15 space1 text-212121 opacity40 text-uppercase">/
+                                    night</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 collection-cards">
+                    <div class="collection-card radius5 overflow-hidden bg-white">
+                        <div class="position-relative">
+                            <div class="card-img">
+                                <img src="./assets/images/collection-card-img.png" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div
+                                class="card-label px-3 py-2 radius3 overflow-hidden bg-white  position-absolute top-0 end-0 mt-4 me-4">
+                                <div class="manrope-bold font10 leading15 space1 text-B7824E text-uppercase">
+                                    Featured
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content-wrapper">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="location-icon">
+                                    <img src="./assets/images/icon/location.svg" alt="">
+                                </div>
+                                <div
+                                    class="manrope-reg font11 leading17 space2_2 text-212121 opacity-50 text-uppercase">
+                                    Manchester,
+                                    England
+                                </div>
+                            </div>
+                            <div class="stix-wox-reg font24 leading32 mb-3">The Kensington Retreat</div>
+                            <div
+                                class="stix-wox-reg font24 leading32 text-B7824E dpt-20 dpb-25 border-top border-212121-05">
+                                £85 <span
+                                    class="manrope-bold font10 leading15 space1 text-212121 opacity40 text-uppercase">/
+                                    night</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 collection-cards">
+                    <div class="collection-card radius5 overflow-hidden bg-white">
+                        <div class="position-relative">
+                            <div class="card-img">
+                                <img src="./assets/images/collection-card-img.png" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div
+                                class="card-label px-3 py-2 radius3 overflow-hidden bg-white  position-absolute top-0 end-0 mt-4 me-4">
+                                <div class="manrope-bold font10 leading15 space1 text-B7824E text-uppercase">
+                                    Featured
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content-wrapper">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="location-icon">
+                                    <img src="./assets/images/icon/location.svg" alt="">
+                                </div>
+                                <div
+                                    class="manrope-reg font11 leading17 space2_2 text-212121 opacity-50 text-uppercase">
+                                    Manchester,
+                                    England
+                                </div>
+                            </div>
+                            <div class="stix-wox-reg font24 leading32 mb-3">The Kensington Retreat</div>
+                            <div
+                                class="stix-wox-reg font24 leading32 text-B7824E dpt-20 dpb-25 border-top border-212121-05">
+                                £85 <span
+                                    class="manrope-bold font10 leading15 space1 text-212121 opacity40 text-uppercase">/
+                                    night</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 collection-cards">
+                    <div class="collection-card radius5 overflow-hidden bg-white">
+                        <div class="position-relative">
+                            <div class="card-img">
+                                <img src="./assets/images/collection-card-img.png" alt=""
+                                    class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div
+                                class="card-label px-3 py-2 radius3 overflow-hidden bg-white  position-absolute top-0 end-0 mt-4 me-4">
+                                <div class="manrope-bold font10 leading15 space1 text-B7824E text-uppercase">
+                                    Featured
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content-wrapper">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="location-icon">
+                                    <img src="./assets/images/icon/location.svg" alt="">
+                                </div>
+                                <div
+                                    class="manrope-reg font11 leading17 space2_2 text-212121 opacity-50 text-uppercase">
+                                    Manchester,
+                                    England
+                                </div>
+                            </div>
+                            <div class="stix-wox-reg font24 leading32 mb-3">The Kensington Retreat</div>
+                            <div
+                                class="stix-wox-reg font24 leading32 text-B7824E dpt-20 dpb-25 border-top border-212121-05">
+                                £85 <span
+                                    class="manrope-bold font10 leading15 space1 text-212121 opacity40 text-uppercase">/
+                                    night</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="spacing dmb-140"></div>
+
+    <!-- book-section -->
+    <section class="book-section bg-B7824E dpt-115 dpb-130">
+        <div class="container">
+            <div class="stix-wox-reg font48 leading48 text-white text-center dmb-80">
+                Why Book Directly?
+            </div>
+            <div class="row row32">
+                <div class="col-lg-4">
+                    <div class="d-flex flex-lg-column align-items-center justify-content-center text-center">
+                        <div class="book-circle rounded-pill d-flex align-items-center justify-content-center dmb-30">
+                            <img src="./assets/images/icon/label.svg" alt="">
+                        </div>
+                        <div class="stix-wox-reg font24 leading32 text-white mb-3">Best Rate Guarantee</div>
+                        <div class="manrope-light font15 leading25 text-white">Booking directly with us ensures you
+                            receive the lowest price available anywhere online.</div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex flex-lg-column align-items-center justify-content-center text-center">
+                        <div class="book-circle rounded-pill d-flex align-items-center justify-content-center dmb-30">
+                            <img src="./assets/images/icon/check-kmark.svg" alt="">
+                        </div>
+                        <div class="stix-wox-reg font24 leading32 text-white mb-3">Flexible Policies</div>
+                        <div class="manrope-light font15 leading25 text-white">Enjoy more generous cancellation terms
+                            and flexible
+                            check-in options when you book direct.</div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex flex-lg-column align-items-center justify-content-center text-center">
+                        <div class="book-circle rounded-pill d-flex align-items-center justify-content-center dmb-30">
+                            <img src="./assets/images/icon/policy.svg" alt="">
+                        </div>
+                        <div class="stix-wox-reg font24 leading32 text-white mb-3">Personal Concierge</div>
+                        <div class="manrope-light font15 leading25 text-white">Direct access to our dedicated team for
+                            personalized
+                            recommendations and seamless support.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        $(function () {
+            // debug check (optional)
+            $("#destination-select-box").select2({
+                closeOnSelect: true,
+                minimumResultsForSearch: Infinity,
+                allowClear: false,
+                width: "100%"
+            });
+            $("#guest-select-box").select2({
+                closeOnSelect: true,
+                minimumResultsForSearch: Infinity,
+                allowClear: false,
+                width: "100%"
+            });
+        });
+    </script>
+</body>
+
+</html>

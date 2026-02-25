@@ -90,6 +90,15 @@
     padding-right: 24px;
   }
 }
+.row32 {
+  margin-left: -32px;
+  margin-right: -32px;
+
+  & > * {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
 .row40 {
   margin-left: -40px;
   margin-right: -40px;

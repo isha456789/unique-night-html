@@ -13,3 +13,86 @@
     color: rgba($color: $white, $alpha: 0.4) !important;
   }
 }
+// Select2 Dropdown
+.select2-container--default {
+    .select2-selection--single {
+        background-color: transparent !important;
+        border: 1px solid rgba(255, 255, 255, 0.2) !important;
+        border-radius: 8px !important;
+        color: #ffffff4d;
+        border: none !important;
+        position: relative !important;
+        height: 22px !important;
+
+        .select2-selection__rendered {
+            color: #ffffff4d !important;
+            padding-left: 0 !important;
+            padding-right: 20px !important;
+            font-family: "manrope-medium" !important;
+            font-size: 14px !important;
+            line-height: 22px !important;
+        }
+        .select2-selection__arrow {
+            b {
+                display: none !important;
+            }
+
+            width: 12px !important;
+            height: 8px !important;
+            right: 0px !important;
+            top: 50% !important;
+            transform: translateY(-50%);
+            background: url("../../../public/assets/images/icon/down-arrow.svg") no-repeat center;
+            background-size: 12px;
+        }
+    }
+
+    .select2-dropdown {
+        background: #212429 !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
+        border-radius: 10px !important;
+        padding: 6px !important;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35) !important;
+    }
+    .select2-results__option--highlighted {
+        background: rgba(255, 255, 255, 0.1) ;
+    }
+
+    .select2-results__options {
+        max-height: 240px ;
+        overflow-y: auto ;
+        padding: 4px !important;
+        background: transparent !important;
+
+        &::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+        }
+    }
+
+    .select2-results__option {
+        color: #ffffff;
+        font-size: 14px;
+        padding: 10px 12px;
+        border-radius: 6px;
+        background: transparent;
+        transition: all 0.18s ease;
+        font-family: "manrope-medium";
+
+        // hover (remove blue)
+        &--highlighted[aria-selected] {
+            background: rgba(255, 255, 255, 0.1) !important;
+            color: #fff !important;
+        }
+
+        // selected
+        &[aria-selected="true"] {
+            background: rgba(255, 255, 255, 0.16) !important;
+            color: #fff !important;
+        }
+    }
+}
