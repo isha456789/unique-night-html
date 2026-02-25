@@ -8,6 +8,16 @@
     padding-right: 22px;
   }
 }
+.container2{
+    max-width: 1440px;
+  padding-left: 112px;
+  padding-right: 112px;
+
+  @include media-breakpoint-down(lg) {
+    padding-left: 112px;
+    padding-right: 112px;
+  }
+}
 
 .w-fit {
   width: fit-content;

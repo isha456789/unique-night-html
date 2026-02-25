@@ -17514,6 +17514,18 @@ textarea {
   }
 }
 
+.container2 {
+  max-width: 1440px;
+  padding-left: 112px;
+  padding-right: 112px;
+}
+@media (max-width: 991.98px) {
+  .container2 {
+    padding-left: 112px;
+    padding-right: 112px;
+  }
+}
+
 .w-fit {
   width: fit-content;
 }
@@ -18327,6 +18339,13 @@ footer .footer-bottom {
 }
 .book-section .book-circle img {
   height: 30px;
+}
+
+.product-image-section .left-side-img {
+  height: 703px;
+}
+.product-image-section .right-side-img {
+  height: 341px;
 }
 
 .contact-section .contact-form {
