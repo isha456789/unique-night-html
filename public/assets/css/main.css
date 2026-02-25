@@ -18444,4 +18444,14 @@ body {
   display: none;
 }
 
+.blog-left-right-section .blog-left-right-card {
+  box-shadow: 0px 8px 10px -6px rgba(33, 33, 33, 0.05), 0px 20px 25px -5px rgba(33, 33, 33, 0.05);
+}
+.blog-left-right-section .left-blog-img {
+  height: 640px;
+}
+.blog-left-right-section .blog-icon {
+  height: 28px;
+}
+
 /*# sourceMappingURL=main.css.map */
