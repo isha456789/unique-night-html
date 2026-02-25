@@ -1,0 +1,32 @@
+body{
+    background-color: $color-FFFAF2;
+}
+.testimonial-section{
+    .circle-bg{
+        background-color: rgba($color: $color-B7824E, $alpha: 0.3);
+        padding: 10px 10px;
+        border: 1px solid $color-B7824E;
+
+    }
+}
+.image-testimonial-section{
+    height: 700px;
+    .bg-layer{
+       background-color: rgba(33, 33, 33, 0.8);
+       backdrop-filter: blur(2px);
+       top: 0;
+       left: 0;
+    }
+    .text-bg{
+        border: 1px solid rgba($color: $white, $alpha: 0.3);  
+        padding: 18px 20px;
+    }
+}
+
+.testimonial-slider-section{
+    .round-bg{
+        background-color: rgba($color: $color-B7824E, $alpha: 0.3);
+        padding: 13px 16px;
+        border: 1px solid rgba($color: $color-B7824E, $alpha: 0.3);
+    }
+}

@@ -18078,6 +18078,16 @@ button,
   color: #B7824E;
   border: 1px solid #B7824E;
 }
+.btnA.bg-212121-btn {
+  background-color: #212121;
+  border: 1px solid #212121;
+  color: #fff;
+}
+.btnA.bg-212121-btn:hover {
+  background-color: #fff;
+  color: #212121;
+  border: 1px solid #212121;
+}
 .btnA.bg-FFFAF2-btn {
   background-color: #FFFAF2;
   border: 1px solid #FFFAF2;
@@ -18216,6 +18226,25 @@ button,
   height: 27px;
 }
 
+.testimonial-slider .slick-list {
+  margin-left: -24px;
+  margin-right: -24px;
+}
+.testimonial-slider .slick-list .slick-slide {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.testimonial-slider-section .slick-arrows {
+  z-index: 5 !important;
+}
+.testimonial-slider-section .slick-arrows .prev-arrow {
+  padding-left: 25px;
+}
+.testimonial-slider-section .slick-arrows .next-arrow {
+  padding-right: 25px;
+}
+
 header .header-logo {
   height: 40px;
 }
@@ -18276,11 +18305,7 @@ footer .footer-bottom {
 
 .hero-section .hero-img {
   height: 812px;
-}
-@media (min-width: 992px) {
-  .hero-section .hero-img {
-    padding-left: 73px;
-  }
+  padding-left: 73px;
 }
 
 .portfolio-collection-section .view-all-btn {
@@ -18288,12 +18313,8 @@ footer .footer-bottom {
 }
 
 .guest-journy-section .journey-img {
+  padding-left: 84px;
   height: 877px;
-}
-@media (min-width: 992px) {
-  .guest-journy-section .journey-img {
-    padding-left: 84px;
-  }
 }
 .guest-journy-section .jouney-content-wrapper .jouney-content {
   gap: 32px;
@@ -18375,6 +18396,52 @@ footer .footer-bottom {
 }
 .privacy-section .privacy-content-data .privacy-icon {
   height: 16px;
+}
+
+body {
+  background-color: #FFFAF2;
+}
+
+.testimonial-section .circle-bg {
+  background-color: rgba(183, 130, 78, 0.3);
+  padding: 10px 10px;
+  border: 1px solid #B7824E;
+}
+
+.image-testimonial-section {
+  height: 700px;
+}
+.image-testimonial-section .bg-layer {
+  background-color: rgba(33, 33, 33, 0.8);
+  backdrop-filter: blur(2px);
+  top: 0;
+  left: 0;
+}
+.image-testimonial-section .text-bg {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 18px 20px;
+}
+
+.testimonial-slider-section .round-bg {
+  background-color: rgba(183, 130, 78, 0.3);
+  padding: 13px 16px;
+  border: 1px solid rgba(183, 130, 78, 0.3);
+}
+
+.accordion-section .faq-border {
+  border-bottom: 1px solid rgba(33, 33, 33, 0.3);
+}
+.accordion-section .faq-border .faq-icon {
+  height: 36px;
+}
+.accordion-section .accordion-item {
+  border-bottom: 1px solid rgba(33, 33, 33, 0.1);
+}
+.accordion-section .accordion-item:last-child {
+  border-bottom: 0px !important;
+}
+.accordion-section .closet-content {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */

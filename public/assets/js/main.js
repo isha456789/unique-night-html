@@ -20433,7 +20433,20 @@ var Plugins = /*#__PURE__*/function () {
   }
   plugins_createClass(Plugins, [{
     key: "init",
-    value: function init() {}
+    value: function init() {
+      this.TestimonialSlider();
+    }
+  }, {
+    key: "TestimonialSlider",
+    value: function TestimonialSlider() {
+      $(".testimonial-slider").slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow: ".testimonial-slider-section .prev-arrow",
+        nextArrow: ".textimonial-slider-section .next-arrow"
+      });
+    }
   }]);
   return Plugins;
 }();
@@ -20450,7 +20463,33 @@ var Parts = /*#__PURE__*/function () {
   }
   parts_createClass(Parts, [{
     key: "init",
-    value: function init() {}
+    value: function init() {
+      this.CounterAnimation();
+    }
+  }, {
+    key: "CounterAnimation",
+    value: function CounterAnimation() {
+      $(document).ready(function () {
+        var duration = 5000; // total animation time (2 seconds)
+        var interval = 20; // update speed
+        var steps = duration / interval;
+        $(".count").each(function () {
+          var $this = $(this);
+          var targetNumber = parseInt($this.data("number"));
+          var current = 0;
+          var increment = targetNumber / steps;
+          var counter = setInterval(function () {
+            current += increment;
+            if (current >= targetNumber) {
+              $this.text(targetNumber);
+              clearInterval(counter);
+            } else {
+              $this.text(Math.floor(current));
+            }
+          }, interval);
+        });
+      });
+    }
   }]);
   return Parts;
 }();

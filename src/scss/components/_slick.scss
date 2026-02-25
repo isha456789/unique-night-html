@@ -1,0 +1,23 @@
+.testimonial-slider{
+    .slick-list{
+        margin-left: -24px;
+        margin-right: -24px;
+
+        .slick-slide{
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+    }
+}
+
+.testimonial-slider-section{
+    .slick-arrows{
+        z-index: 5 !important;
+        .prev-arrow{
+           padding-left: 25px;
+        }
+        .next-arrow{
+            padding-right: 25px;
+        }
+}
+}

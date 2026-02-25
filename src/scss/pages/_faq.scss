@@ -1,0 +1,21 @@
+.accordion-section{
+    .faq-border{  
+        border-bottom: 1px solid rgba($color: $color-212121, $alpha: 0.3);
+        .faq-icon{
+            height: 36px;
+        }
+    }
+    .accordion-item{
+         border-bottom: 1px solid rgba($color: $color-212121, $alpha: 0.1);
+
+         &:last-child{
+            border-bottom: 0px !important;
+         }
+    }
+    .closet-content{
+    display: none;
+}
+    
+}
+
+

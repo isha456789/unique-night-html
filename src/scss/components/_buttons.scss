@@ -42,6 +42,18 @@ button,
         }
     }
 
+    &.bg-212121-btn {
+        background-color: $color-212121;
+        border: 1px solid $color-212121;
+        color: $white;
+
+        &:hover {
+            background-color: $white;
+            color: $color-212121;
+            border: 1px solid $color-212121;
+        }
+    }
+
     &.bg-FFFAF2-btn{
         background-color: $color-FFFAF2;
         border: 1px solid $color-FFFAF2;
