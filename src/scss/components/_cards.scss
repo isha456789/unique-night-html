@@ -52,3 +52,12 @@
         }
     }
 }
+
+.service-card{
+    padding: 37px 30px 24px 30px;
+    .btnA{
+        &:hover{
+            background-color: white !important;
+        }
+    }
+}

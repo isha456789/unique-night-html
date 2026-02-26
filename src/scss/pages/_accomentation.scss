@@ -6,3 +6,83 @@
         height: 341px;
     }
 }
+.product-details-section {
+    .property-details {
+        .property-overview {
+            .location-icon {
+                img {
+                    height: 17px;
+                }
+            }
+            .property-feature {
+                .feature-icon {
+                    img {
+                        height: 20px;
+                    }
+                }
+            }
+        }
+        .property-key-features {
+            .key-circle {
+                width: 60px;
+                height: 60px;
+                background: rgba($color: $color-212121, $alpha: 0.08);
+                img {
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+        }
+        .property-amenities{
+            .tickmark-icon{
+                img{
+                    width: 11px;
+                    height: 11px;
+                }
+            }
+        }
+        .property-rules{
+            .rule-icon{
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+            .rules-list{
+                li{
+                    color: #212121B2;
+                    &::before{
+                        content: "";
+                        width: 6px;
+                        height: 6px;
+                        background-color: $color-B7824E;
+                        position: absolute;
+                        top: 8px;
+                        left: 0;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+    .property-book-card{
+        top: 16px;
+        padding: 33px 33px 48px 33px;
+        box-shadow: 0px 20px 25px -5px #0000001A;
+        .star-icon{
+            img{
+                width: 20px;
+                height: 19px;
+            }
+        }
+    }
+}
+
+.client-review-section{
+    .stars-icon{
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

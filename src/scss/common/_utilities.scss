@@ -211,6 +211,9 @@
 .space3 {
     letter-spacing: $space3;
 }
+.space3_3 {
+    letter-spacing: $space3_3;
+}
 .space3_5 {
     letter-spacing: $space3_5;
 }
@@ -271,14 +274,23 @@
 .radius5 {
     border-radius: $radius5;
 }
+.radius10 {
+    border-radius: $radius10;
+}
 .radius12 {
     border-radius: $radius12;
 }
 // ====== Border Color ======
 
+.border-212121 {
+    border-color: $color-212121 !important;
+}
 .border-212121-05 {
     border-color: rgba($color: $color-212121, $alpha: 0.05) !important;
 }
 .border-B7824E-60 {
     border-color: rgba($color: $color-B7824E, $alpha: 0.6) !important;
+}
+.border-FFFFFF-40 {
+    border-color: rgba($color: white, $alpha: 0.4) !important;
 }
