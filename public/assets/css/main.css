@@ -18299,6 +18299,17 @@ button,
   height: 48px;
 }
 
+.partner-cards-wrapper {
+  row-gap: 30px;
+}
+.partner-cards-wrapper .partner-card {
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 246px;
+  background: rgba(33, 33, 33, 0.08);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.0509803922);
+}
+
 .testimonial-slider-section .testimonial-slider .slick-list {
   margin-left: -24px;
   margin-right: -24px;

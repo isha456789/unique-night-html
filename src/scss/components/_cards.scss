@@ -28,7 +28,7 @@
 
 .collection-cards {
     .collection-card {
-        box-shadow: 0px 1px 2px 0px #0000000D;
+        box-shadow: 0px 1px 2px 0px #0000000d;
         height: 472px;
         .card-img {
             height: 250px;
@@ -45,35 +45,45 @@
     }
 }
 
-.value-cards{
-    .value-card{
-        .card-icon{
+.value-cards {
+    .value-card {
+        .card-icon {
             height: 27px;
         }
     }
 }
 
-.service-card{
+.service-card {
     padding: 37px 30px 24px 30px;
-    .btnA{
-        &:hover{
+    .btnA {
+        &:hover {
             background-color: white !important;
         }
     }
 }
 
-.blog-card{
-    .blog-img{
+.blog-card {
+    .blog-img {
         height: 430px;
     }
 }
 
-.client-review-slider{
-    .client-review-card{
+.client-review-slider {
+    .client-review-card {
         padding: 40px;
-        .client-avatar{
+        .client-avatar {
             width: 48px;
             height: 48px;
         }
+    }
+}
+.partner-cards-wrapper {
+    row-gap: 30px;
+    .partner-card {
+        padding-left: 40px;
+        padding-right: 40px;
+        height: 246px;
+        background: rgba($color: $color-212121, $alpha: 0.08);
+        box-shadow: 0px 1px 2px 0px #0000000d;
     }
 }
