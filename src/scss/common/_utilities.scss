@@ -297,3 +297,224 @@
 .border-FFFFFF-40 {
     border-color: rgba($color: white, $alpha: 0.4) !important;
 }
+
+@include media-breakpoint-down(lg) {
+    // ======= Font Size ======
+    .res-font9 {
+        font-size: $font9;
+    }
+    .res-font10 {
+        font-size: $font10;
+    }
+    .res-font11 {
+        font-size: $font11;
+    }
+    .res-font12 {
+        font-size: $font12;
+    }
+    .res-font14 {
+        font-size: $font14;
+    }
+    .res-font15 {
+        font-size: $font15;
+    }
+    .res-font16 {
+        font-size: $font16;
+    }
+    .res-font18 {
+        font-size: $font18;
+    }
+    .res-font20 {
+        font-size: $font20;
+    }
+    .res-font24 {
+        font-size: $font24;
+    }
+    .res-font27 {
+        font-size: $font27;
+    }
+    .res-font30 {
+        font-size: $font30;
+    }
+    .res-font36 {
+        font-size: $font36;
+    }
+    .res-font48 {
+        font-size: $font48;
+    }
+    .res-font60 {
+        font-size: $font60;
+    }
+    .res-font65 {
+        font-size: $font65;
+    }
+    .res-font72 {
+        font-size: $font72;
+    }
+    .res-font96 {
+        font-size: $font96;
+    }
+    .res-font100 {
+        font-size: $font100;
+    }
+
+    // ====== Line Height ======
+    .res-leading15 {
+        line-height: $leading15;
+    }
+    .res-leading16 {
+        line-height: $leading16;
+    }
+    .res-leading17 {
+        line-height: $leading16;
+    }
+    .res-leading20 {
+        line-height: $leading20;
+    }
+    .res-leading24 {
+        line-height: $leading24;
+    }
+    .res-leading25 {
+        line-height: $leading25;
+    }
+    .res-leading26 {
+        line-height: $leading26;
+    }
+    .res-leading28 {
+        line-height: $leading28;
+    }
+    .res-leading30 {
+        line-height: $leading30;
+    }
+    .res-leading32 {
+        line-height: $leading32;
+    }
+    .res-leading33 {
+        line-height: $leading33;
+    }
+    .res-leading36 {
+        line-height: $leading36;
+    }
+    .res-leading39 {
+        line-height: $leading39;
+    }
+    .res-leading40 {
+        line-height: $leading40;
+    }
+    .res-leading48 {
+        line-height: $leading48;
+    }
+    .res-leading60 {
+        line-height: $leading60;
+    }
+    .res-leading63 {
+        line-height: $leading63;
+    }
+    .res-leading96 {
+        line-height: $leading96;
+    }
+    .res-leading72 {
+        line-height: $leading72;
+    }
+    .res-leading100 {
+        line-height: $leading100;
+    }
+
+    // ====== Letter Spacing ======
+    .res-space1_2 {
+        letter-spacing: $space1_2;
+    }
+    .res-space0_35 {
+        letter-spacing: $space0_35;
+    }
+    .res-space0_9 {
+        letter-spacing: $space0_9;
+    }
+    .res-space1 {
+        letter-spacing: $space1;
+    }
+    .res-space1_4 {
+        letter-spacing: $space1_4;
+    }
+    .res-space2 {
+        letter-spacing: $space2;
+    }
+    .res-space2_2 {
+        letter-spacing: $space2_2;
+    }
+    .res-space2_4 {
+        letter-spacing: $space2_4;
+    }
+    .res-space3 {
+        letter-spacing: $space3;
+    }
+    .res-space3_3 {
+        letter-spacing: $space3_3;
+    }
+    .res-space3_5 {
+        letter-spacing: $space3_5;
+    }
+    .res-space3_6 {
+        letter-spacing: $space3_6;
+    }
+    .res-space4 {
+        letter-spacing: $space4;
+    }
+    .res-space4_4 {
+        letter-spacing: $space4_4;
+    }
+    .res-space4_8 {
+        letter-spacing: $space4_8;
+    }
+    .res-space5_5 {
+        letter-spacing: $space5_5;
+    }
+    // ====== Opacity ======
+    .res-opacity5 {
+        opacity: $opacity5;
+    }
+    .res-opacity8 {
+        opacity: $opacity8;
+    }
+    .res-opacity10 {
+        opacity: $opacity10;
+    }
+    .res-opacity19 {
+        opacity: $opacity19;
+    }
+    .res-opacity60 {
+        opacity: $opacity60;
+    }
+    .res-opacity40 {
+        opacity: $opacity40;
+    }
+    .res-opacity20 {
+        opacity: $opacity20;
+    }
+    .res-opacity30 {
+        opacity: $opacity30;
+    }
+    .res-opacity70 {
+        opacity: $opacity70;
+    }
+    .res-opacity80 {
+        opacity: $opacity80;
+    }
+    // ====== Border Radius ======
+
+    .res-radius3 {
+        border-radius: $radius3;
+    }
+    .res-radius5 {
+        border-radius: $radius5;
+    }
+    .res-radius10 {
+        border-radius: $radius10;
+    }
+    .res-radius12 {
+        border-radius: $radius12;
+    }
+    .res-radius24 {
+        border-radius: $radius24;
+    }
+}
