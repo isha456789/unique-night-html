@@ -114,10 +114,17 @@
     .input{
         border-bottom: 1px solid $color-111111 !important;
         height: 45px;
+
+         &::placeholder{
+            color: $color-9CA3AF !important;
+           
+        }
     }
     .textarea{
+          border-bottom: 1px solid $color-111111 !important;
         &::placeholder{
             color: $color-9CA3AF !important;
+           
         }
     }
 }

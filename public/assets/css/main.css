@@ -18085,7 +18085,7 @@ button,
 }
 .btnA.bg-B7824E-btn:hover {
   background-color: #FFFAF2;
-  color: #B7824E;
+  color: #B7824E !important;
   border: 1px solid #B7824E;
 }
 .btnA.border-white-btn {
@@ -18097,6 +18097,16 @@ button,
   background-color: #fff;
   color: #B7824E;
   border: 1px solid #B7824E;
+}
+.btnA.border-black-btn {
+  background-color: transparent;
+  border: 1px solid rgba(33, 33, 33, 0.15);
+  color: #212121;
+}
+.btnA.border-black-btn:hover {
+  background-color: #212121;
+  color: #FFFAF2;
+  border: 1px solid #FFFAF2;
 }
 .btnA.bg-212121-btn {
   background-color: #212121;
@@ -18204,6 +18214,30 @@ button,
   color: #fff !important;
 }
 
+.join-form .input {
+  padding: 20px 290px;
+  height: 64px;
+  background-color: rgba(247, 246, 245, 0.5);
+  border: 1px solid rgba(33, 33, 33, 0.1) !important;
+}
+.join-form .input::placeholder {
+  color: rgba(33, 33, 33, 0.3) !important;
+}
+
+.enquiry-form .input {
+  border-bottom: 1px solid #111111 !important;
+  height: 45px;
+}
+.enquiry-form .input::placeholder {
+  color: #9CA3AF !important;
+}
+.enquiry-form .textarea {
+  border-bottom: 1px solid #111111 !important;
+}
+.enquiry-form .textarea::placeholder {
+  color: #9CA3AF !important;
+}
+
 .card-hover .img {
   transform: scale(1);
   transition: 0.3s all ease-in-out;
@@ -18253,6 +18287,10 @@ button,
   background-color: white !important;
 }
 
+.blog-card .blog-img {
+  height: 430px;
+}
+
 .client-review-slider .client-review-card {
   padding: 40px;
 }
@@ -18273,10 +18311,10 @@ button,
   z-index: 5 !important;
 }
 .testimonial-slider-section .slick-arrows .prev-arrow {
-  padding-left: 25px;
+  margin-left: -60px;
 }
 .testimonial-slider-section .slick-arrows .next-arrow {
-  padding-right: 25px;
+  margin-right: -60px;
 }
 
 .service-section .service-slider .slick-list {
@@ -18587,6 +18625,14 @@ body {
 }
 .blog-left-right-section .blog-icon {
   height: 28px;
+}
+
+.enquiry-form .enqury-border {
+  border-bottom: 1px solid #F3F4F6;
+}
+
+.service-include-section .service-icon {
+  height: 44px;
 }
 
 /*# sourceMappingURL=main.css.map */
