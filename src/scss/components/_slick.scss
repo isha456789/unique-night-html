@@ -39,7 +39,6 @@
         .prev-arrow {
             filter: invert(1);
             margin-left: -90px;
-            
         }
         .next-arrow {
             filter: invert(1);
@@ -53,12 +52,24 @@
         .slick-list {
             margin-left: -24px;
             margin-right: -24px;
-
+            @include media-breakpoint-down(lg) {
+                margin-left: -8px;
+                margin-right: -8px;
+            }
             .slick-slide {
                 padding-left: 24px;
                 padding-right: 24px;
+                @include media-breakpoint-down(lg) {
+                    padding-left: 8px;
+                    padding-right: 8px;
+                }
+            }
+            
+            @include media-breakpoint-down(sm) {
+                .slick-active{
+                    width: 300px !important;
+                }
             }
         }
     }
-   
 }
