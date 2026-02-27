@@ -20436,6 +20436,7 @@ var Plugins = /*#__PURE__*/function () {
     value: function init() {
       this.TestimonialSlider();
       this.ServiceSlider();
+      this.ClienReviewSlider();
     }
   }, {
     key: "TestimonialSlider",
@@ -20457,6 +20458,15 @@ var Plugins = /*#__PURE__*/function () {
         arrows: true,
         prevArrow: ".service-section .prev-arrow",
         nextArrow: ".service-section .next-arrow"
+      });
+    }
+  }, {
+    key: "ClienReviewSlider",
+    value: function ClienReviewSlider() {
+      $(".client-review-slider").slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false
       });
     }
   }]);

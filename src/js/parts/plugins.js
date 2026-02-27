@@ -4,6 +4,7 @@ export class Plugins {
   init() {
     this.TestimonialSlider();
     this.ServiceSlider();
+    this.ClienReviewSlider();
   }
 
   TestimonialSlider() {
@@ -17,11 +18,18 @@ export class Plugins {
   }
   ServiceSlider() {
     $(".service-slider").slick({
-      slidesToShow:3,
+      slidesToShow: 3,
       slidesToScroll: 1,
       arrows: true,
       prevArrow: ".service-section .prev-arrow",
       nextArrow: ".service-section .next-arrow",
+    });
+  }
+  ClienReviewSlider() {
+    $(".client-review-slider").slick({
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows: false,
     });
   }
 }

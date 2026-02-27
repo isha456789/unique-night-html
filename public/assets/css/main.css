@@ -17526,10 +17526,6 @@ textarea {
   }
 }
 
-body {
-  height: 4000px;
-}
-
 .w-fit {
   width: fit-content;
 }
@@ -18044,6 +18040,10 @@ body {
   border-radius: 12px;
 }
 
+.radius24 {
+  border-radius: 24px;
+}
+
 .border-212121 {
   border-color: #212121 !important;
 }
@@ -18253,6 +18253,14 @@ button,
   background-color: white !important;
 }
 
+.client-review-slider .client-review-card {
+  padding: 40px;
+}
+.client-review-slider .client-review-card .client-avatar {
+  width: 48px;
+  height: 48px;
+}
+
 .testimonial-slider-section .testimonial-slider .slick-list {
   margin-left: -24px;
   margin-right: -24px;
@@ -18290,6 +18298,15 @@ button,
 .service-section .slick-arrows .next-arrow {
   filter: invert(1);
   margin-right: -90px;
+}
+
+.client-review-section .client-review-slider .slick-list {
+  margin-left: -24px;
+  margin-right: -24px;
+}
+.client-review-section .client-review-slider .slick-list .slick-slide {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 header .header-logo {
@@ -18464,6 +18481,26 @@ footer .footer-bottom {
 
 .client-review-section .stars-icon img {
   width: 20px;
+  height: 20px;
+}
+
+.map-section .google-map {
+  height: 520px;
+}
+.map-section .google-map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  filter: saturate(0.95) contrast(0.95);
+}
+.map-section .google-map .google-location {
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.2509803922);
+}
+.map-section .google-map .google-location .location-icon {
+  width: 40px;
+  height: 40px;
+}
+.map-section .google-map .google-location .location-icon img {
   height: 20px;
 }
 
