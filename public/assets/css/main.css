@@ -17509,8 +17509,8 @@ textarea {
 }
 @media (max-width: 991.98px) {
   .container {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -17521,8 +17521,8 @@ textarea {
 }
 @media (max-width: 991.98px) {
   .container2 {
-    padding-left: 112px;
-    padding-right: 112px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -18504,7 +18504,16 @@ button,
 }
 
 .client-review-slider .client-review-card {
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 232px;
+}
+@media (max-width: 991.98px) {
+  .client-review-slider .client-review-card {
+    height: 288px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
 .client-review-slider .client-review-card .client-avatar {
   width: 48px;
@@ -18520,6 +18529,13 @@ button,
   height: 246px;
   background: rgba(33, 33, 33, 0.08);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.0509803922);
+}
+@media (max-width: 991.98px) {
+  .partner-cards-wrapper .partner-card {
+    height: 241px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 
 .testimonial-slider-section .testimonial-slider .slick-list {
@@ -18565,9 +18581,26 @@ button,
   margin-left: -24px;
   margin-right: -24px;
 }
+@media (max-width: 991.98px) {
+  .client-review-section .client-review-slider .slick-list {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+}
 .client-review-section .client-review-slider .slick-list .slick-slide {
   padding-left: 24px;
   padding-right: 24px;
+}
+@media (max-width: 991.98px) {
+  .client-review-section .client-review-slider .slick-list .slick-slide {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+@media (max-width: 575.98px) {
+  .client-review-section .client-review-slider .slick-list .slick-active {
+    width: 300px !important;
+  }
 }
 
 header .header-logo {
@@ -18748,11 +18781,20 @@ footer .footer-bottom {
 .map-section .google-map {
   height: 520px;
 }
+@media (max-width: 991.98px) {
+  .map-section .google-map {
+    height: 348px;
+  }
+}
 .map-section .google-map iframe {
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
   border: 0;
   filter: saturate(0.95) contrast(0.95);
+}
+.map-section .google-map iframe #map {
+  width: 100% !important;
+  height: 100% !important;
 }
 .map-section .google-map .google-location {
   box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.2509803922);
@@ -18761,8 +18803,19 @@ footer .footer-bottom {
   width: 40px;
   height: 40px;
 }
+@media (max-width: 991.98px) {
+  .map-section .google-map .google-location .location-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
 .map-section .google-map .google-location .location-icon img {
   height: 20px;
+}
+@media (max-width: 991.98px) {
+  .map-section .google-map .google-location .location-icon img {
+    height: 15px;
+  }
 }
 
 .contact-section .contact-form {
