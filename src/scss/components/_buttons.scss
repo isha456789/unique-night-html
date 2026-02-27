@@ -42,6 +42,19 @@ button,
         }
     }
 
+        
+    &.border-black-btn {
+        background-color: transparent;
+        border: 1px solid rgba($color: $color-212121, $alpha: 0.15);
+        color: $color-212121;
+
+        &:hover {
+            background-color: $color-212121;
+            color: $color-FFFAF2;
+            border: 1px solid $color-FFFAF2;
+        }
+    }
+
     &.bg-212121-btn {
         background-color: $color-212121;
         border: 1px solid $color-212121;
