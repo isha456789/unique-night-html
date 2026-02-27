@@ -1,93 +1,79 @@
 button,
-[type=button],
-[type=reset],
-[type=submit] {
-    appearance: none !important;
-    -moz-appearance: none !important;
-    -webkit-appearance: none !important;
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  appearance: none !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
 }
 
 .btnA {
-    height: 56px;
-    padding-left: 40px;
-    padding-right: 40px;
-    transition: all 0.3s ease-in-out;
+  height: 56px;
+  padding-left: 40px;
+  padding-right: 40px;
+  transition: all 0.3s ease-in-out;
 
-    &.btnB {
+  &.btnB {
     height: 64px;
- }
+  }
 
-    &.bg-B7824E-btn {
-        background-color: $color-B7824E;
-        border: 1px solid $color-B7824E;
-        color: $white;
+  &.bg-B7824E-btn {
+    background-color: $color-B7824E;
+    border: 1px solid $color-B7824E;
+    color: $white;
 
-        &:hover {
-            background-color: $color-FFFAF2;
-            color: $color-B7824E;
-            border: 1px solid  $color-B7824E;
-        }
+    &:hover {
+      background-color: $color-FFFAF2;
+      color: $color-B7824E;
+      border: 1px solid $color-B7824E;
     }
+  }
 
-    
-    &.border-white-btn {
-        background-color: $color-B7824E;
-        border: 1px solid $white;
-        color: $white;
+  &.border-white-btn {
+    background-color: $color-B7824E;
+    border: 1px solid $white;
+    color: $white;
 
-        &:hover {
-            background-color: $white;
-            color: $color-B7824E;
-            border: 1px solid $color-B7824E;
-        }
+    &:hover {
+      background-color: $white;
+      color: $color-B7824E;
+      border: 1px solid $color-B7824E;
     }
+  }
 
-        
-    &.border-black-btn {
-        background-color: transparent;
-        border: 1px solid rgba($color: $color-212121, $alpha: 0.15);
-        color: $color-212121;
+  &.border-black-btn {
+    background-color: transparent;
+    border: 1px solid rgba($color: $color-212121, $alpha: 0.15);
+    color: $color-212121;
 
-        &:hover {
-            background-color: $color-212121;
-            color: $color-FFFAF2;
-            border: 1px solid $color-FFFAF2;
-        }
+    &:hover {
+      background-color: $color-212121;
+      color: $color-FFFAF2;
+      border: 1px solid $color-FFFAF2;
     }
+  }
 
-    &.bg-212121-btn {
-        background-color: $color-212121;
-        border: 1px solid $color-212121;
-        color: $white;
+  &.bg-212121-btn {
+    background-color: $color-212121;
+    border: 1px solid $color-212121;
+    color: $white;
 
-        &:hover {
-            background-color: $white;
-            color: $color-212121;
-            border: 1px solid $color-212121;
-        }
+    &:hover {
+      background-color: $white;
+      color: $color-212121;
+      border: 1px solid $color-212121;
     }
+  }
 
-    &.bg-FFFAF2-btn{
-        background-color: $color-FFFAF2;
-        border: 1px solid $color-FFFAF2;
-        color: $color-212121;
+  &.bg-FFFAF2-btn {
+    background-color: $color-FFFAF2;
+    border: 1px solid $color-FFFAF2;
+    color: $color-212121;
 
-        &:hover{
-            background-color: transparent;
-            border: 1px solid $color-FFFAF2;
-            color:  $color-B7824E;
-        }
+    &:hover {
+      background-color: transparent;
+      border: 1px solid $color-FFFAF2;
+      color: $color-B7824E;
     }
-
+  }
 }
-
-
-
-
-
-
-
-
-
-
-

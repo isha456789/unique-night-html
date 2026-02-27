@@ -13,10 +13,10 @@
     .slick-arrows {
         z-index: 5 !important;
         .prev-arrow {
-            padding-left: 25px;
+            margin-left: -60px;
         }
         .next-arrow {
-            padding-right: 25px;
+            margin-right: -60px;
         }
     }
 }
