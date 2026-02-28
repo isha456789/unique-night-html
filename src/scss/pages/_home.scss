@@ -12,11 +12,6 @@
     .view-all-btn {
         border-bottom: 1.5px solid;
     }
-    .collection-card-wrapper{
-        @include media-breakpoint-down(lg){
-            row-gap: 20px;
-        }
-    }
 }
 .guest-journy-section {
     .journey-img {

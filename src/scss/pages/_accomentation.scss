@@ -31,21 +31,31 @@
                     height: 17px;
                 }
             }
-            .property-feature {
-                .feature-icon {
-                    img {
-                        height: 20px;
-                        @include media-breakpoint-down(lg){
-                            height: 18px;
+            .property-features {
+                @include media-breakpoint-down(lg) {
+                    margin-top: 24px;
+                    &:nth-of-type(-n + 2) {
+                        margin-top: 0px !important;
+                    }
+                }
+                .property-feature {
+                    .feature-icon {
+                        img {
+                            height: 20px;
+                            @include media-breakpoint-down(lg) {
+                                height: 18px;
+                            }
                         }
                     }
                 }
             }
         }
         .property-key-features {
-            .key-features-wrapper{
-                @include media-breakpoint-down(lg){
-                    row-gap: 35px;
+            .key-feature-wrapper {
+                @include media-breakpoint-down(lg) {
+                   &:nth-last-of-type(-n + 1) {
+                        margin-bottom: 0px !important;
+                    }
                 }
             }
             .key-circle {
@@ -74,7 +84,7 @@
                 }
             }
             .rules-list {
-                @include media-breakpoint-down(lg){
+                @include media-breakpoint-down(lg) {
                     padding-left: 0 !important;
                 }
                 li {

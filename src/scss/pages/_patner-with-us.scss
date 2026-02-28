@@ -7,4 +7,16 @@
     .service-icon{
         height: 44px;
     }
+    .service-include-wrapper{
+          @include media-breakpoint-up(lg) {
+        &:nth-of-type(-n + 2) {
+            margin-top: 0px !important;
+        }
+    }
+    @include media-breakpoint-down(lg) {
+        &:first-child {
+            margin-top: 0px !important;
+        }
+    }
+    }
 }

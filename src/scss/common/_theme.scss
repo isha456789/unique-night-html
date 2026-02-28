@@ -119,6 +119,7 @@
   }
 }
 
+
 // TEXT OVERFLOW CSS
 .truncate {
   overflow: hidden;
@@ -177,5 +178,14 @@
     text-overflow: initial !important;
     line-clamp: initial !important;
     -webkit-line-clamp: initial !important;
+  }
+  .res-row-0{
+      margin-left: 0px;
+  margin-right: 0px;
+
+  & > * {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   }
 }
