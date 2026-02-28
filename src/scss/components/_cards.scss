@@ -30,11 +30,21 @@
     .collection-card {
         box-shadow: 0px 1px 2px 0px #0000000d;
         height: 472px;
+        @include media-breakpoint-down(lg) {
+            height: 423px;
+        }
+        
         .card-img {
             height: 250px;
+            @include media-breakpoint-down(lg) {
+                height: 220px;
+            }
         }
         .card-content-wrapper {
             padding: 32px 30px;
+            @include media-breakpoint-down(lg) {
+                padding: 30px 20px 35px 20px;
+            }
             .location-icon {
                 margin-right: 10px;
                 img {
@@ -55,6 +65,9 @@
 
 .service-card {
     padding: 37px 30px 24px 30px;
+    @include media-breakpoint-down(lg) {
+        padding: 35px 16px 35px 16px;
+    }
     .btnA {
         &:hover {
             background-color: white !important;
@@ -65,9 +78,9 @@
 .blog-card {
     .blog-img {
         height: 430px;
-         @include media-breakpoint-down(lg){
+        @include media-breakpoint-down(lg) {
             height: 363px;
-         }
+        }
     }
 }
 
@@ -76,7 +89,7 @@
         padding-left: 40px;
         padding-right: 40px;
         height: 232px;
-        @include media-breakpoint-down(lg){
+        @include media-breakpoint-down(lg) {
             height: 288px;
             padding-left: 24px;
             padding-right: 24px;
@@ -95,7 +108,7 @@
         height: 246px;
         background: rgba($color: $color-212121, $alpha: 0.08);
         box-shadow: 0px 1px 2px 0px #0000000d;
-        @include media-breakpoint-down(lg){
+        @include media-breakpoint-down(lg) {
             height: 241px;
             padding-left: 25px;
             padding-right: 25px;

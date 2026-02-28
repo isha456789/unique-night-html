@@ -17,6 +17,9 @@
     }
     .properties-card-wrapper {
         row-gap: 62px;
+        @include media-breakpoint-down(lg){
+            overflow: visible !important;
+        }
     }
 }
 

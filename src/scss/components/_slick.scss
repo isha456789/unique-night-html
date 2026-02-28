@@ -12,7 +12,7 @@
     }
     .slick-arrows {
         z-index: 5 !important;
-        
+
         .prev-arrow {
             left: -60px !important;
         }
@@ -40,10 +40,27 @@
         .prev-arrow {
             filter: invert(1);
             margin-left: -90px;
+            @include media-breakpoint-down(lg) {
+                margin-left: 0px;
+                width: 30px;
+                img{
+                    height: 40px;
+                }
+            }
         }
         .next-arrow {
             filter: invert(1);
             margin-right: -90px;
+            @include media-breakpoint-down(lg) {
+                margin-right: 0;
+                img{
+                    height: 40px;
+                }
+            }
+        }
+        @include media-breakpoint-down(sm) {
+            position: static !important;
+            justify-content: center !important;
         }
     }
 }
@@ -65,12 +82,36 @@
                     padding-right: 8px;
                 }
             }
-            
+
             @include media-breakpoint-down(sm) {
-                .slick-active{
+                .slick-active {
                     width: 300px !important;
                 }
             }
         }
     }
 }
+    .properties-card-slider {
+        .slick-list {
+            margin-left: -5px;
+            margin-right: -5px;
+            @include media-breakpoint-down(lg) {
+                margin-left: -8px;
+                margin-right: -8px;
+            }
+            .slick-slide {
+                padding-left: 5px;
+                padding-right: 5px;
+                @include media-breakpoint-down(lg) {
+                    padding-left: 8px;
+                    padding-right: 8px;
+                }
+            }
+
+            @include media-breakpoint-down(sm) {
+                .slick-active {
+                    width: 300px !important;
+                }
+            }
+        }
+    }

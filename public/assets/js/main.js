@@ -20437,6 +20437,7 @@ var Plugins = /*#__PURE__*/function () {
       this.TestimonialSlider();
       this.ServiceSlider();
       this.ClienReviewSlider();
+      this.PropertiesCardSlider();
     }
   }, {
     key: "TestimonialSlider",
@@ -20476,7 +20477,26 @@ var Plugins = /*#__PURE__*/function () {
         slidesToScroll: 1,
         arrows: true,
         prevArrow: ".service-section .prev-arrow",
-        nextArrow: ".service-section .next-arrow"
+        nextArrow: ".service-section .next-arrow",
+        responsive: [{
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }, {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }, {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }]
       });
     }
   }, {
@@ -20484,6 +20504,34 @@ var Plugins = /*#__PURE__*/function () {
     value: function ClienReviewSlider() {
       $(".client-review-slider").slick({
         slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+        responsive: [{
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }, {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }, {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }]
+      });
+    }
+  }, {
+    key: "PropertiesCardSlider",
+    value: function PropertiesCardSlider() {
+      $(".properties-card-slider").slick({
+        slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
         responsive: [{
