@@ -14,6 +14,9 @@
 .diffrence-cards {
     .diffrence-card {
         padding: 32px 27px;
+        @include media-breakpoint-down(lg){
+            padding: 32px 24px;
+        }
         height: 318px;
         .diff-circle {
             width: 64px;
@@ -43,7 +46,7 @@
         .card-content-wrapper {
             padding: 32px 30px;
             @include media-breakpoint-down(lg) {
-                padding: 30px 20px 35px 20px;
+                padding: 30px 24px 35px 24px;
             }
             .location-icon {
                 margin-right: 10px;
