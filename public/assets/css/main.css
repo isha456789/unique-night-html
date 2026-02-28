@@ -18878,6 +18878,11 @@ footer .footer-bottom {
 .left-right-section .left-side-img {
   height: 750px;
 }
+@media (max-width: 991.98px) {
+  .left-right-section .left-side-img {
+    height: 345px;
+  }
+}
 
 .value-card-section .value-card-wrapper {
   gap: 32px 0px;
@@ -18896,6 +18901,11 @@ footer .footer-bottom {
 }
 .properties-section .properties-filter-wrapper .guest-wrapper {
   padding-left: 32px;
+}
+@media (max-width: 991.98px) {
+  .properties-section .properties-filter-wrapper .guest-wrapper {
+    padding-left: 0px;
+  }
 }
 .properties-section .properties-filter-wrapper .location-icon img {
   height: 11px;

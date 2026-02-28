@@ -8,6 +8,9 @@
         }
         .guest-wrapper {
             padding-left: 32px;
+            @include media-breakpoint-down(lg){
+                padding-left: 0px;
+            }
         }
         .location-icon {
             img {

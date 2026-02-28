@@ -1,6 +1,10 @@
 .left-right-section{
     .left-side-img{
         height: 750px;
+
+        @include media-breakpoint-down(lg){
+            height:345px;
+        }
     }
 }
 .value-card-section{
