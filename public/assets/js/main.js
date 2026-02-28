@@ -20446,7 +20446,26 @@ var Plugins = /*#__PURE__*/function () {
         slidesToScroll: 1,
         arrows: true,
         prevArrow: ".testimonial-slider-section .prev-arrow",
-        nextArrow: ".textimonial-slider-section .next-arrow"
+        nextArrow: ".textimonial-slider-section .next-arrow",
+        responsive: [{
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }, {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }, {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }]
       });
     }
   }, {

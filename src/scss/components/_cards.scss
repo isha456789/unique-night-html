@@ -65,6 +65,9 @@
 .blog-card {
     .blog-img {
         height: 430px;
+         @include media-breakpoint-down(lg){
+            height: 363px;
+         }
     }
 }
 

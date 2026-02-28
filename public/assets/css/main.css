@@ -18502,6 +18502,11 @@ button,
 .blog-card .blog-img {
   height: 430px;
 }
+@media (max-width: 991.98px) {
+  .blog-card .blog-img {
+    height: 363px;
+  }
+}
 
 .client-review-slider .client-review-card {
   padding-left: 40px;
@@ -18550,10 +18555,10 @@ button,
   z-index: 5 !important;
 }
 .testimonial-slider-section .slick-arrows .prev-arrow {
-  margin-left: -60px;
+  left: -60px !important;
 }
 .testimonial-slider-section .slick-arrows .next-arrow {
-  margin-right: -60px;
+  right: -60px !important;
 }
 
 .service-section .service-slider .slick-list {
@@ -18834,6 +18839,11 @@ footer .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+@media (max-width: 991.98px) {
+  .privacy-section ul {
+    overflow: auto;
+  }
+}
 .privacy-section .privacy-content-data:last-child {
   margin-bottom: 0px !important;
 }
@@ -18859,6 +18869,11 @@ body {
 
 .image-testimonial-section {
   height: 700px;
+}
+@media (max-width: 991.98px) {
+  .image-testimonial-section {
+    height: 490px;
+  }
 }
 .image-testimonial-section .bg-layer {
   background-color: rgba(33, 33, 33, 0.8);
@@ -18898,6 +18913,11 @@ body {
 }
 .blog-left-right-section .left-blog-img {
   height: 640px;
+}
+@media (max-width: 991.98px) {
+  .blog-left-right-section .left-blog-img {
+    height: 298px;
+  }
 }
 .blog-left-right-section .blog-icon {
   height: 28px;

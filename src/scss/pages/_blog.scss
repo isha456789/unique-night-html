@@ -6,6 +6,10 @@
         }
     .left-blog-img{
         height: 640px;
+
+        @include media-breakpoint-down(lg){
+            height: 298px;
+        }
     }
     .blog-icon{
         height: 28px;

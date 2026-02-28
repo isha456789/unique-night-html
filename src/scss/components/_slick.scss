@@ -12,11 +12,12 @@
     }
     .slick-arrows {
         z-index: 5 !important;
+        
         .prev-arrow {
-            margin-left: -60px;
+            left: -60px !important;
         }
         .next-arrow {
-            margin-right: -60px;
+            right: -60px !important;
         }
     }
 }

@@ -11,6 +11,10 @@ body{
 }
 .image-testimonial-section{
     height: 700px;
+     @include media-breakpoint-down(lg) {
+      height: 490px;
+    }
+    
     .bg-layer{
        background-color: rgba(33, 33, 33, 0.8);
        backdrop-filter: blur(2px);
