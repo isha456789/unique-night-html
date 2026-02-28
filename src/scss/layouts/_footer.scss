@@ -2,6 +2,9 @@ footer{
     .footer-top{
         .footer-logo{
             height: 84px;
+            @include media-breakpoint-down(lg){
+                height: 50px;
+            }
         }
         .footer-icon{
             width: 40px;

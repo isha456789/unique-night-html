@@ -20,110 +20,232 @@
     <link href="assets/css/main.css" rel="stylesheet" />
   </head>
   <!-- dark header -->
-  <header class="header dpt-50 dpb-40">
+  <header class="header dark-header position-fixed top-0 w-100 dpt-50 dpb-40">
     <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-            <div class="header-logo">
-                <img src="assets/images/icon/header-logo.svg" class="white-logo h-100" alt="" />
-                <img src="assets/images/icon/header-dark-logo.svg" class="black-logo h-100" alt="" />
+      <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center">
+        <div class="w-100 d-flex justify-content-between align-items-center">
+          <a href="" class="header-logo">
+            <img
+              src="assets/images/icon/header-logo.svg"
+              class="white-logo h-100"
+              alt=""
+            />
+            <img
+              src="assets/images/icon/header-dark-logo.svg"
+              class="black-logo h-100"
+              alt=""
+            />
+          </a>
+          <div
+            class="burger-menu d-lg-none d-flex align-items-center justify-content-center"
+          >
+            <div class="menu-icon d-inline-flex">
+              <img
+                src="assets/images/icon/burger-menu.svg"
+                class="h-100 w-100 white-icon"
+                alt=""
+              />
+              <img
+                src="assets/images/icon/black-menu.svg"
+                class="h-100 w-100 black-icon"
+                alt=""
+              />
             </div>
-            <div class="header-menu d-flex justify-content-between align-items-center">
-                    <ul class="d-flex justify-content-between list-none ps-0 mb-0">
-                        <li class="mx-4"><a href="" class="manrope-medium font11 leading17 space2_2 text-white text-uppercase text-decoration-none">Properties</a></li>
-                        <li class="mx-4"><a href="" class="manrope-medium font11 leading17 space2_2 text-white text-uppercase text-decoration-none">About</a></li>
-                        <li class="mx-4"><a href="" class="manrope-medium font11 leading17 space2_2 text-white text-uppercase text-decoration-none">Contact</a></li>
-                    </ul>
-                <div class="ms-4">
-                    <a href="" class="btnA bg-FFFAF2-btn header-btn font11 leading17 space2_2 d-inline-flex align-items-center text-decoration-none transition">BOOK NOW</a>
-                </div>
+            <div class="close-icon">
+              <img
+                src="assets/images/icon/close-btn.svg"
+                class="h-100 w-100"
+                alt=""
+              />
             </div>
+          </div>
         </div>
+
+        <div class="header-menu d-none d-lg-flex justify-content-between align-items-center">
+          <ul class="d-flex flex-column flex-lg-row list-none ps-0 mb-0">
+            <li class="mx-lg-4 tmb-40">
+              <a href="" class="manrope-medium font11 leading17 space2_2 res-font24 res-leading17 text-white text-uppercase text-decoration-none">Properties</a>            
+            </li>
+            <li class="mx-lg-4 tmb-40">
+              <a href="" class="manrope-medium font11 leading17 space2_2  res-font24 res-leading17  text-white text-uppercase text-decoration-none">About</a>
+            </li>
+            <li class="mx-lg-4 tmb-40">
+              <a href="" class="manrope-medium font11 leading17 space2_2  res-font24 res-leading17  text-white text-uppercase text-decoration-none">Contact</a>
+            </li>
+          </ul>
+          <div class="ms-lg-4 tmb-50">
+            <a href="" class="btnA bg-FFFAF2-btn header-btn font11 leading17 space2_2 text-nowrap d-inline-flex align-items-center text-decoration-none transition">BOOK NOW</a>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
   <div class="spacing dmb-200"></div>
 
-  <footer class="footer bg-212121 dpt-130 dpb-50">
+  <footer class="footer bg-212121 dpt-130 dpb-50 tpt-70 tpb-50">
     <div class="container">
-      <div class="footer-top row dmb-120">
-        <div class="col-4">
+      <div class="footer-top row dmb-120 tmb-75">
+        <div class="col-lg-4">
           <div class="footer-logo dmb-30">
-            <img src="assets/images/icon/footer-logo.svg" class="h-100" alt=""/>
+            <img
+              src="assets/images/icon/footer-logo.svg"
+              class="h-100"
+              alt=""
+            />
           </div>
-          <div class="d-flex">
-              <div class="footer-icon d-flex justify-content-center align-items-center me-3">
-                <img src="assets/images/icon/f-1.svg" alt=""/>
-              </div>
-              <div class="footer-icon d-flex justify-content-center align-items-center me-3">
-                <img src="assets/images/icon/f-2.svg" alt=""/>
-              </div>
-              <div class="footer-icon d-flex justify-content-center align-items-center me-3">
-                <img src="assets/images/icon/f-3.svg" alt=""/>
-              </div>
+          <div class="d-flex tmb-60">
+            <div
+              class="footer-icon d-flex justify-content-center align-items-center me-3"
+            >
+              <img src="assets/images/icon/f-1.svg" alt="" />
+            </div>
+            <div
+              class="footer-icon d-flex justify-content-center align-items-center me-3"
+            >
+              <img src="assets/images/icon/f-2.svg" alt="" />
+            </div>
+            <div
+              class="footer-icon d-flex justify-content-center align-items-center me-3"
+            >
+              <img src="assets/images/icon/f-3.svg" alt="" />
+            </div>
           </div>
         </div>
 
-        <div class="col-5">
-          <div class="d-flex">
-            <div class="col-6">
-              <div class="manrope-reg font9 leading17 space3_5 text-B7824E text-uppercase dmb-40">
+        <div class="col-lg-5">
+          <div class="d-lg-flex">
+            <div class="col-lg-6">
+              <div
+                class="manrope-reg font9 leading17 space3_5 text-B7824E text-uppercase dmb-40 tmb-25"
+              >
                 Quick Links
               </div>
-              <ul class="list-none mb-0 ps-0">
-                <li><a href="" class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20">Properties</a></li>
-                <li><a href="" class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20">About Us</a></li>
-                <li><a href="" class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20">Partner With Us</a></li>
-                <li><a href="" class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20">FAQ</a></li>
-                <li><a href="" class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20">Contact</a></li>
+              <ul class="list-none mb-0 ps-0 tmb-60">
+                <li>
+                  <a
+                    href=""
+                    class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20 tmb-15"
+                    >Properties</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20 tmb-15"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20 tmb-15"
+                    >Partner With Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20 tmb-15"
+                    >FAQ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20 tmb-15"
+                    >Contact</a
+                  >
+                </li>
               </ul>
             </div>
 
-            <div class="col-6">
-              <div class="manrope-reg font9 leading17 space3_5 text-B7824E text-uppercase dmb-40">
+            <div class="col-lg-6">
+              <div
+                class="manrope-reg font9 leading17 space3_5 text-B7824E text-uppercase dmb-40 tmb-25"
+              >
                 Legal
               </div>
-              <ul class="list-none mb-0 ps-0">
-                <li><a href="" class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20">Terms & Conditions</a></li>
-                <li><a href="" class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20">Privacy Policy</a></li>
-                <li><a href="" class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20">Cookie Policy</a></li>
-                <li><a href="" class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20">Booking Terms</a></li>
+              <ul class="list-none mb-0 ps-0 tmb-60">
+                <li>
+                  <a
+                    href=""
+                    class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20 tmb-15"
+                    >Terms & Conditions</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20 tmb-15"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20 tmb-15"
+                    >Cookie Policy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-20 tmb-15"
+                    >Booking Terms</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div class="col-3">
-           <div class="manrope-reg font9 leading17 space3_5 text-B7824E text-uppercase dmb-40">
+        <div class="col-lg-3">
+          <div
+            class="manrope-reg font9 leading17 space3_5 text-B7824E text-uppercase dmb-40"
+          >
             Stay Updated
           </div>
-          <div class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-25 col-10 pe-4">
-            Subscribe to our newsletter for
-            exclusive offers and travel inspiration.
+          <div
+            class="manrope-reg font14 leading20 text-white opacity40 text-decoration-none dmb-25 col-lg-10 col-9 pe-lg-4"
+          >
+            Subscribe to our newsletter for exclusive offers and travel
+            inspiration.
           </div>
 
           <div class="d-flex justify-content-between search-box dmb-10">
-            <input type="text" class="input bg-212121 text-white opacity20 border-0" placeholder="Email" />
+            <input
+              type="text"
+              class="input bg-212121 text-white opacity20 border-0"
+              placeholder="Email"
+            />
             <div class="next-icon">
-              <img src="assets/images/icon/arrow.svg" class="h-100" alt="" /> 
+              <img src="assets/images/icon/arrow.svg" class="h-100" alt="" />
             </div>
           </div>
         </div>
       </div>
-      <div class="footer-bottom d-flex justify-content-between dpt-50">
-        <div class="manrope-bold font10 leading15 text-white opacity30">
+      <div
+        class="footer-bottom d-lg-flex justify-content-between text-center dpt-50"
+      >
+        <div
+          class="manrope-bold font10 leading15 space3 text-white opacity30 px-lg-0 px-4 tmb-25"
+        >
           © 2026 Unique Nights Ltd. All rights reserved.
         </div>
         <div class="">
-          <a href="" class="manrope-bold font10 leading15 text-white opacity30 text-decoration-none">
+          <a
+            href=""
+            class="manrope-bold font10 leading15 space3 text-white opacity30 text-decoration-none"
+          >
             made by the curious
           </a>
         </div>
       </div>
     </div>
   </footer>
-  
-  <body>
 
+  <body>
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
